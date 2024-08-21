@@ -32,7 +32,7 @@ CNN-based models are widely used for their ability to capture local features suc
   
 - **ESPCN (Efficient Sub-pixel CNN)**: Focuses on computational efficiency by learning to upscale images in the final layer.
 
-👉 [Read more about CNN-based Super-Resolution](./blog/uper-Resolution-for-Unstructured%20Text-Images-Using-CNN.md)
+👉 [Read more about CNN-based Super-Resolution](./blog/Super-Resolution-for-Unstructured%20Text-Images-Using-CNN.md)
 
 ### 2. Generative Adversarial Networks (GANs) for Super-Resolution
 
