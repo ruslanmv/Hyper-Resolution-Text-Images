@@ -82,6 +82,9 @@ Self-supervised learning allows models to learn meaningful representations from 
 
 - **BYOL for Image Super-Resolution**: A self-supervised learning approach that bootstraps learning without requiring labeled data, effective for low-data scenarios.
 
+ If your dataset is limited in size, self-supervised learning approaches could help pre-train your models to better extract features from images.
+
+
 👉 [Read more about Self-Supervised Learning for Super-Resolution](./blog/Self-Supervised-Learning-for-Super-Resolution.md)
 
 ### 7. Zero-Shot Super-Resolution (ZSSR)
@@ -89,6 +92,35 @@ Self-supervised learning allows models to learn meaningful representations from 
 ZSSR is a unique approach that leverages internal learning within a single image, without needing large datasets of low- and high-resolution image pairs. It’s particularly useful for enhancing the resolution of individual images in real-time.
 
 👉 [Read more about Zero-Shot Super-Resolution](./blog/Zero-Shot-Super-Resolution.md)
+
+
+Given projects involves hyperresolution of images with unstructured text, the following approaches would be most suitable:
+
+### 8. Swin Transformer or Hybrid CNN + Transformer Models
+ These are particularly effective at handling both global context and local details, making them ideal for enhancing low-resolution images that contain text or other complex patterns.
+
+👉 [Read more about Swin Transformer or Hybrid CNN](./blog/Swin-Transformer-Hybrid-CNN.md)
+
+
+### 9. Text-Specific Models (e.g., TTSR)
+ If your project heavily involves text in images (e.g., scanned documents, text-rich images), TTSR or similar transformer-based models specifically designed for text super-resolution should be considered.
+
+👉 [Read more about Text-Specific Models](./blog/TTSR.md)
+
+
+### 10. GANs (ESRGAN) for Texture Enhancement
+
+ If the images also contain natural textures and fine details, ESRGAN or similar GAN-based techniques can generate visually appealing results while recovering high-frequency details.
+
+👉 [Read more about GANs (ESRGAN) for Texture Enhancement](./blog/ESRGAN-for-Text-Enhancement-in-Low-Resolution-Images.md)
+
+
+### 11. Diffusion Models (SR3 or Stable Diffusion)
+
+ These models are cutting-edge and can be adapted for tasks requiring extremely high-quality and sharp super-resolution images. They work well for recovering both textures and sharp edges.
+
+ 👉 [Read more about Diffusion Models SR3](./blog/SR3-DifussionModel.md)
+
 
 ---
 
@@ -105,12 +137,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-## Blog Links
-
-- [CNN-based Super-Resolution](#)
-- [GAN-based Super-Resolution](#)
-- [Transformer-based Super-Resolution](#)
-- [Hybrid CNN + Transformer Super-Resolution](#)
-- [Diffusion Models for Super-Resolution](#)
-- [Self-Supervised Learning for Super-Resolution](#)
-- [Zero-Shot Super-Resolution](#)
