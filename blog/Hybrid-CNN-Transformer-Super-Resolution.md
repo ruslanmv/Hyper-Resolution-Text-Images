@@ -1,7 +1,3 @@
-Sure! Below is a detailed blog on creating a Python code to perform super-resolution on an image containing unstructured text using Hybrid Transformer-CNN Architectures, particularly with the TTSR (Text Transformer Super-Resolution) model and U-Net + Transformers. This guide will cover the steps and code for image enhancement.
-
----
-
 # Super Resolution of Unstructured Text in Low-Resolution Images Using Hybrid Transformer-CNN Architectures
 
 Super-resolution techniques are critical in improving the quality of low-resolution images, especially those containing text. Images with unstructured text often suffer from poor legibility, and traditional super-resolution methods might not yield optimal results. Hybrid architectures, combining Convolutional Neural Networks (CNNs) and Transformers, offer powerful solutions for such cases.
